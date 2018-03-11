@@ -6,13 +6,75 @@
     android:layout_height="match_parent"
     tools:context="edu.manillas.manillas.PrincipalActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/lblSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Seleccion"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lblMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Material" />
+
+        <Spinner
+            android:id="@+id/Material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/lblDije"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Dije" />
+
+        <Spinner
+            android:id="@+id/cmbDijes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/lblTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tipo" />
+
+        <Spinner
+            android:id="@+id/cmbTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lblTituloCosto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Costo"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/lblCosto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textEnd" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

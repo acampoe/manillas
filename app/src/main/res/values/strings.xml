@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Manillas</string>
+    <string name="Seleccion">Seleccione Materiales</string>
+    <string name="Material">Material</string>
+    <string name="Dije">Tipo Dije</string>
+    <string name="Tipo">Baño</string>
+    <string name="Costo">Costo Total:</string>
+    <string name="cuero">Cuero</string>
+    <string name="cuerda">Cuerda</string>
+    <string name="martillo">Martillo</string>
+    <string name="ancla">Ancla</string>
+    <string name="oro">Oro</string>
+    <string name="oro_rosa">Oro Rosado</string>
+    <string name="plata">Plata</string>
+    <string name="niquel">Niquel</string>
+    <string-array name="material">
+        <item>@string/cuerda</item>
+        <item>@string/cuero</item>
+    </string-array>
+    <string-array name="dije">
+        <item>@string/martillo</item>
+        <item>@string/ancla</item>
+    </string-array>
+    <string-array name="tipo">
+        <item>@string/oro</item>
+        <item>@string/oro_rosa</item>
+        <item>@string/niquel</item>
+        <item>@string/plata</item>
+    </string-array>
 </resources>
